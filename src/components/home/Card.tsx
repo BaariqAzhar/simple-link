@@ -5,7 +5,11 @@ import { Button, Card as CardAntd } from 'antd';
 
 export default function Card() {
     return (
-        <CardAntd title={`${name}`} variant="borderless" style={{ width: 300 }}>
+        <CardAntd
+            title={`${name}`}
+            variant="borderless"
+            className={`${styles.card}`}
+        >
             <div className={`${styles.buttonContainer}`}>
                 <Button
                     type="primary"

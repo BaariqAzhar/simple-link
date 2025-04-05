@@ -2,6 +2,10 @@
   margin-top: 64px;
 }
 
+.card {
+  width: 300px;
+}
+
 .buttonContainer {
   margin-top: 16px;
 }
