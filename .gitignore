@@ -43,6 +43,3 @@ next-env.d.ts
 #mac-os unnecesary files
 ._.*
 ._*
-
-#constant variables
-src/constants/envVariables.tsx
